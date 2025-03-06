@@ -13,6 +13,11 @@ public class Main {
         Naruto.idade = 13;
         Naruto.aldeia = Sasuke.aldeia;
 
+        Hyuga Hinata = new Hyuga();
+        Hinata.nome = "Hinata Hyuga";
+        Hinata.idade = 13;
+        Hinata.aldeia = "Konoha";
+
         System.out.println(Naruto.aldeia);
         //Ninja usando uma função unica do clã que herdou classe ninja
         Sasuke.SharinganAtivado();
@@ -21,11 +26,21 @@ public class Main {
         Naruto.anosParaHokage(70);
         Naruto.modoSabio();
 
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto";
+        Boruto.aldeia = "Konoha";
+        Boruto.idade = 12;
+        Boruto.AtivarJougan();
+        Boruto.modoSabio();
+        Boruto.AtivarKarma();
+
 
 
         System.out.println(Naruto.retornoVila());
 
         System.out.println(Sasuke.anosParaHokage(50));
+
+
 
   }
 }
