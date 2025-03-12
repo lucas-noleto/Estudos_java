@@ -13,6 +13,8 @@ public class Main {
         Senju Hashirama = new Senju();
         Hashirama.nome = "Hashirama Senju";
         Hashirama.sabedoriaHokage();
+
+
     }
 
 
