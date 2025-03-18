@@ -45,6 +45,11 @@ public class Main {
 
         System.out.println(itachi.nome);
 
+        Hatake Kakashi = new Hatake("Kakashi Hatake", "Aldeia da folha",21 );
+        Kakashi.ativarSharingan();
+        Kakashi.boasVindas();
+        Kakashi.bemvindoAnbu();
+
 
 
 

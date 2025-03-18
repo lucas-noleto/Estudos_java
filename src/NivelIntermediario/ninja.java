@@ -13,7 +13,7 @@ public class ninja {
     }
 
     //Criando construtor com todas as classes
-    public ninja(String aldeia, String nome, int idade) {
+    public ninja( String nome, String aldeia, int idade) {
         this.aldeia = aldeia;
         this.nome = nome;
         this.idade = idade;
