@@ -7,7 +7,17 @@ public class ninja {
 
     //Criar um metodo publico personalizado
     //Metodo void nao retorna nada
+    //Criando construtores
+    public ninja(){
 
+    }
+
+    //Criando construtor com todas as classes
+    public ninja(String aldeia, String nome, int idade) {
+        this.aldeia = aldeia;
+        this.nome = nome;
+        this.idade = idade;
+    }
 
     //Metodo String precisa retornar uma string
     public String retornoVila(){

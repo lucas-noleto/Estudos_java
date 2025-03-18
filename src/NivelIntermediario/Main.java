@@ -3,7 +3,7 @@ package NivelIntermediario;
 public class Main {
     public static void main(String[] args) {
         //Criar um ninja naruto
-        Uchiha Sasuke = new Uchiha();
+        uchiha Sasuke = new uchiha();
         Sasuke.nome =  "Sasuke Uchiha";
         Sasuke.idade = 15;
         Sasuke.aldeia = "Konoha";
@@ -39,6 +39,12 @@ public class Main {
         System.out.println(Naruto.retornoVila());
 
         System.out.println(Sasuke.anosParaHokage(50));
+
+        //Apos implementar os construtores em ninja e uchiha, agora consigo criar o itachi
+        uchiha itachi = new uchiha("Vila oculta da folha", "Itachi Uchiha",17 );
+
+        System.out.println(itachi.nome);
+
 
 
 
