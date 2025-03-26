@@ -32,8 +32,16 @@ public class Ninja implements EstrategiaDeBatalha{
         System.out.println("Meu nome eh: "+this.nome+"Eu nao tenho qi");
     }
 
+        
+    @Override
     public void inteligenciaDeCombate(int qi){
         System.out.println("Meu nome eh: "+this.nome+"Essa eh minha inteligencia de combate: "+qi);
     }
+
+    @Override
+    public String toString(){
+        return "Meu nome eh: "+nome+" eu tenho "+ idade +" anos e sou da aldeia :" +aldeia;
+    }
+
 
 }
