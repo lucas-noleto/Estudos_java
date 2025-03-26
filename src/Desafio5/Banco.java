@@ -18,7 +18,7 @@ public class Banco {
 
         lucas.transferirEntreConta(gab,500);
         lucas.consultarSaldo();
-        gab.consultarSaldo();
+        //gab.consultarSaldo();
 
     }
 }
