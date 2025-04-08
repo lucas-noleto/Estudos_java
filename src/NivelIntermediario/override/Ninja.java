@@ -20,10 +20,16 @@ public class Ninja implements EstrategiaDeBatalha{
     }
 
     //Sobrecarga do construtor, não precisa redeclarar o construtor, só os novos atributos.
+    // final pode ser usado para classe,metodos,atributos, funcoes e outros tipos de dados.
     public Ninja(String nome, String aldeia, int idade,int numeroDeMissoesConcluidas,NivelNinja rank){
         this(nome, aldeia, idade);
         this.numeroDeMissoesConcluidas = numeroDeMissoesConcluidas;
         this.rank=rank;
+    }
+
+    //Ao usar a palavra final, a gente consegue proteger o metodo nao deixando ele ser sobrescrito
+   final void tacarKunai(){
+        System.out.println("Eu sou um metodo da classe mãe");
     }
 
     //Sobre carga de metodo inteligencia de combate

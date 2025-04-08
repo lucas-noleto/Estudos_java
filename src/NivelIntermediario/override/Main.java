@@ -10,5 +10,9 @@ public class Main {
         //Ao fazer a impressao do objeto, estamos mostrando o local onde esta armazenado o objeto (referencia de memoria)
         System.out.println(Kakashi);
 
+        Kakashi.tacarKunai();
+        Uzumaki naruto = new Uzumaki();
+        naruto.tacarKunai();
+
     }
 }
