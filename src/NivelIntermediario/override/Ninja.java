@@ -1,14 +1,61 @@
 package NivelIntermediario.override;
 
 public class Ninja implements EstrategiaDeBatalha{
-    String nome;
-    String aldeia;
-    int idade;
-    int numeroDeMissoesConcluidas;
-    NivelNinja rank;
+    private String nome;
+    private String aldeia;
+    private int idade;
+    private int numeroDeMissoesConcluidas;
+    private NivelNinja rank;
+    private double altura = 2.10;
 
+    public String getNome(){
+        return nome;
+    }
 
-    //TODO: incluir 2 novos atrivutos, missão concluida e rank
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public void setAldeia(String aldeia) {
+        this.aldeia = aldeia;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void setNumeroDeMissoesConcluidas(int numeroDeMissoesConcluidas) {
+        this.numeroDeMissoesConcluidas = numeroDeMissoesConcluidas;
+    }
+
+    public void setRank(NivelNinja rank) {
+        this.rank = rank;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    public String getAldeia() {
+        return aldeia;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public int getNumeroDeMissoesConcluidas() {
+        return numeroDeMissoesConcluidas;
+    }
+
+    public NivelNinja getRank() {
+        return rank;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+//TODO: incluir 2 novos atributos, missão concluida e rank
 
     public Ninja(){}
 
@@ -28,9 +75,13 @@ public class Ninja implements EstrategiaDeBatalha{
     }
 
     //Ao usar a palavra final, a gente consegue proteger o metodo nao deixando ele ser sobrescrito
-   final void tacarKunai(){
+//   final void tacarKunai(){
+//        System.out.println("Eu sou um metodo da classe mãe");
+//    }
+    public void tacarKunai(){
         System.out.println("Eu sou um metodo da classe mãe");
     }
+
 
     //Sobre carga de metodo inteligencia de combate
 
