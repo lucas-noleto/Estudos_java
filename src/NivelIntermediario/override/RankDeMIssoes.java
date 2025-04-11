@@ -13,6 +13,8 @@ public enum RankDeMIssoes {
     private String descricao;
     private int dificuldade;
 
+
+
     RankDeMIssoes(String descricao, int dificuldade){
         this.descricao=descricao;
         this.dificuldade=dificuldade;

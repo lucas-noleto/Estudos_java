@@ -1,6 +1,7 @@
 package NivelIntermediario.override;
 
 public class Uzumaki extends Ninja{
+    Biju Biju;
 
     public Uzumaki() {
     }
@@ -13,6 +14,11 @@ public class Uzumaki extends Ninja{
         super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
     }
 
+
+    public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank,Biju Biju) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+        this.Biju=Biju;
+    }
     @Override
     public void tacarKunai() {
         System.out.println("Estou chamando a funcao de uma classe filha");

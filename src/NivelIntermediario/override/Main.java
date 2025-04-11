@@ -13,7 +13,8 @@ public class Main {
         System.out.println(Kakashi);
 
         Kakashi.tacarKunai();
-        Uzumaki naruto = new Uzumaki();
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki","Konoha",12,5,NivelNinja.KAGE,Biju.KURAMA);
+        System.out.println(naruto.getNome());
         naruto.tacarKunai();
 
     }
