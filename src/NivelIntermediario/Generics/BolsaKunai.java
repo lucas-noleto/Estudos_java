@@ -1,3 +1,4 @@
+/*
 package NivelIntermediario.Generics;
 
 import java.util.ArrayList;
@@ -33,3 +34,4 @@ public class BolsaKunai {
     }
 
 }
+*/

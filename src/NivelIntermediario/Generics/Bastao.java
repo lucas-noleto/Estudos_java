@@ -1,10 +1,12 @@
+
 package NivelIntermediario.Generics;
 
-public class Kunai {
+
+public class Bastao {
 
     private String nome;
 
-    public Kunai(String nome){
+    public Bastao(String nome){
         this.nome= nome;
     }
 
@@ -18,7 +20,8 @@ public class Kunai {
 
     @Override
     public String toString(){
-        return "Kunai :"+nome;
+        return nome;
     }
 
 }
+
