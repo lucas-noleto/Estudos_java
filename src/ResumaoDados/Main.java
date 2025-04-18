@@ -1,8 +1,6 @@
 package ResumaoDados;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,7 +17,36 @@ public class Main {
         //Pilha
         // existe uma ordem
         Stack<String> exemploPilha = new Stack<>();
-        exemploPilha.push("ninja
+        exemploPilha.push("ninja");
+
+        //QEUE
+        //Primeiro a entrar eh o primeiro a sair
+        Queue<String> ninjasQeue = new LinkedList<>();
+        ninjasQeue.add("Sasuke");
+        ninjasQeue.add("Naruto");
+        ninjasQeue.add("Shikamru");
+        ninjasQeue.add("Tobirama Senju");
+
+        System.out.println(ninjasQeue);
+        //Tirar um ninja da fila
+
+        //Tira o head da lista
+        //Poll
+        ninjasQeue.poll();
+
+        //Pick ve o primeiro da fila
+        ninjasQeue.peek();
+
+        //Como é uma fila, nao conseguimos retirar nenhum cara em especifico a nao ser o primeiro que entrou, o mesmo vale para stack
+
+        //Verificar se esta vazia
+        if (ninjasQeue.isEmpty()){
+            System.out.println("Ta vazio");
+        }
+
+        
+
+
 
 
 
