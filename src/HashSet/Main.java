@@ -1,9 +1,6 @@
 package HashSet;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,13 +12,18 @@ public class Main {
         listaNinja.add("Gaara");
 
 
-
-
         //O set é usado para ignorar itens duplicados dentro da nossa lista
+        //O HashSet nao deixa ficar repetido, ordem eh aleatoria
+        //Set <String> ninjasSet = new HashSet<>();
+
+        //treeset coloca na sequencia correta da iteracao, ele ja poem os itens ordenados.Como temos uma string, ele vai ordenar por ordeem alfabetica.
+        //Se fosse int, ficaria para ordem numerica
+        Set <String> ninjasSet = new TreeSet<>();
 
 
+        //LinkedHashSet faz a mesma coisa que o HashSet, mas insere por ordem de adicao
+        //Set <String> ninjasSet = new LinkedHashSet<>();
 
-        Set <String> ninjasSet = new HashSet<>();
 
         //Set verifica se tem itens duplicados e nao possui index
         //Nao importa a ordem de adicao, ele vai colocar ja em uma ordem estabelecida por ele, geralmente ordem alfabetica
